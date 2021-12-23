@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T10:47:28.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="r_XSBwfr7G90PFDml-PA" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-23T07:01:59.407Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Oo6Nwgb65X80g7jJHKVU" version="15.9.6" type="github">
   <diagram id="kv4bornrDNrZcrvYQ2Pp" name="Page-1">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,49 +71,49 @@
         <mxCell id="6qnz0C2pvdTJ44aMb8UW-25" value="&lt;font color=&quot;#99004d&quot;&gt;Operation Select&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="280" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-1" value="gpuModuleLoad" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-1" value="gpuModuleLoad" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="520" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-2" value="gpuModuleGetFunction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-2" value="gpuModuleGetFunction" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="584.5" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-3" value="gpuStreamCreate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-3" value="gpuStreamCreate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="650" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-4" value="gpuLaunchKernel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-4" value="gpuLaunchKernel" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="710" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-5" value="gpuStreamSync" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-5" value="gpuStreamSync" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="770" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-6" value="gpuStreamDestroy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-6" value="gpuStreamDestroy" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="830" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-7" value="gpuModuleUnload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-7" value="gpuModuleUnload" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="890" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-9" value="1. 输入：gpubin(0,0)&lt;br&gt;2. 输出：ptr&amp;lt;i8&amp;gt;&amp;nbsp; module" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-9" value="1. 输入：gpubin(0,0)&lt;br&gt;2. 输出：ptr&amp;lt;i8&amp;gt;&amp;nbsp; module" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="520" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-10" value="&lt;div&gt;&lt;span&gt;1. 输入：1，&lt;/span&gt;&lt;span&gt;func_name&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;3. 输出：ptr&amp;lt;i8&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;猜测：从gpubin中拿到func&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-10" value="&lt;div&gt;&lt;span&gt;1. 输入：1，&lt;/span&gt;&lt;span&gt;func_name&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;3. 输出：ptr&amp;lt;i8&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;猜测：从gpubin中拿到func&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="580" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-11" value="&lt;div&gt;&lt;span&gt;1. 无输入&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. 输出：ptr&amp;lt;i8&amp;gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-11" value="&lt;div&gt;&lt;span&gt;1. 无输入&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. 输出：ptr&amp;lt;i8&amp;gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="650" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-12" value="&lt;div&gt;&lt;span&gt;1. 输入：func_name, grid_x,y,z, block_x,y,z, sharedMemBytes, hstream, kernelParams, extra&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. 输出：无&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-12" value="&lt;div&gt;&lt;span&gt;1. 输入：func_name, grid_x,y,z, block_x,y,z, sharedMemBytes, hstream, kernelParams, extra&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. 输出：无&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="710" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-13" value="&lt;div&gt;&lt;span&gt;1. 输入： 3&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. 输出：无&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-13" value="&lt;div&gt;&lt;span&gt;1. 输入： 3&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. 输出：无&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="770" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-14" value="&lt;div&gt;&lt;span&gt;1. 输入： 3&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. 输出：无&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-14" value="&lt;div&gt;&lt;span&gt;1. 输入： 3&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. 输出：无&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="830" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-15" value="&lt;div&gt;&lt;span&gt;1. 输入： 3&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. 输出：无&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-15" value="&lt;div&gt;&lt;span&gt;1. 输入： 3&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. 输出：无&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="830" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fiDL8TB61DG_aDSnvqMA-16" value="&lt;div&gt;&lt;span&gt;1. 输入： 1&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. 输出：无&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fiDL8TB61DG_aDSnvqMA-16" value="&lt;div&gt;&lt;span&gt;1. 输入： 1&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2. 输出：无&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="890" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
